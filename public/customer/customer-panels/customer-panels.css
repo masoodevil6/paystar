@@ -1,0 +1,92 @@
+
+.icon-item-customer-panel{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-width: 2px !important;
+}
+.title-item-customer-panel{
+    display: flow-root;
+    line-height: 35px;
+}
+
+.selected-item-customer{
+    background-color: #53affe !important;
+}
+
+
+
+
+
+
+.item-panel{
+    border-width: 2px !important;
+}
+
+
+
+
+
+.btn-panel{
+    border-width: 2px !important;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    transition: width 100ms, height 100ms, left 100ms, top 100ms, color 100ms;
+    transform: translate(50%, 50%)
+}
+.btn-panel i{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-panel:hover{
+    width: 35px;
+    height: 35px;
+}
+.btn-panel:hover .btn-panel i{
+    font-size: 15pt;
+    color: black;
+}
+
+
+
+
+
+
+
+.btn-one{
+    left: -10px;
+    top: -10px;
+}
+.btn-one:hover {
+    left: -15px;
+    top: -15px;
+}
+
+
+
+.btn-two{
+    left: 30px;
+    top: -10px;
+}
+.btn-two:hover{
+    left: 25px;
+    top: -15px;
+}
+
+
+.btn-three{
+    left: 70px;
+    top: -10px;
+}
+.btn-three:hover{
+    left: 65px;
+    top: -15px;
+}
+
+
+
+.chart-doughnut div{
+    direction: ltr;
+}

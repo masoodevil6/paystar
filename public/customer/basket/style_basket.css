@@ -1,0 +1,23 @@
+.btn-basket {
+    border-width: 2px !important;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    transition: width 100ms, height 100ms, left 100ms, top 100ms, color 100ms;
+}
+
+.btn-basket i {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-basket:hover{
+    width: 35px;
+    height: 35px;
+}
+
+.btn-basket:hover .btn-basket i{
+    font-size: 15pt;
+    color: black;
+}
